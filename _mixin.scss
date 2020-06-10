@@ -1,0 +1,19 @@
+@mixin position($t, $r, $b, $l) {
+    position: absolute;
+    top: $t;
+    right: $r;
+    bottom: $b;
+    left: $l;
+}
+
+@mixin flex ($jc, $align) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $align;
+}
+
+@mixin styleText($ff, $fz, $lh) {
+    font-family: $ff;
+    font-size: $fz;
+    line-height: $lh;
+}
